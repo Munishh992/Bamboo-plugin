@@ -27,15 +27,15 @@ public final class Messages {
     public static final String CASE_INFORMATION = "RunItem: %1$s | Status: %2$s | Elapsed: %3$s";
     public static final String CASE_STACKTRACE_FORMAT = "%1$s - %2$s";
 
-    public static final String GET_ALL_AVAILABLE_SCHEDULES_URI = "%1$s/api/v4/schedules";
+    public static final String GET_ALL_AVAILABLE_SCHEDULES_PATH = "api/v4/schedules";
 
-    public static final String RUN_SCHEDULE_URI = "%1$s/api/v4/schedules/%2$s/runNow%3$s";
-    public static final String STOP_RUN_URI = "%1$s/api/v4/run/%2$s/stop";
+    public static final String RUN_SCHEDULE_PATH = "api/v4/schedules/%1$s/runNow";
+    public static final String STOP_RUN_PATH = "api/v4/run/%1$s/stop";
 
-    public static final String GET_RUN_STATUS_URI = "%1$s/api/v4/run/%2$s/status";
-    public static final String GET_RUN_ITEMS_IDS_URI = "%1$s/api/v4/run/%2$s/runItemIds";
-    public static final String GET_RUN_ITEM_URI = "%1$s/api/v4/runItems/%2$s";
-    public static final String GET_RUN_ITEM_KEYFRAMES_URI = "%1$s/api/v4/runItems/%2$s/keyframes";
+    public static final String GET_RUN_STATUS_PATH = "api/v4/run/%1$s/status";
+    public static final String GET_RUN_ITEMS_IDS_PATH = "api/v4/run/%1$s/runItemIds";
+    public static final String GET_RUN_ITEM_PATH = "api/v4/runItems/%1$s";
+    public static final String GET_RUN_ITEM_KEYFRAMES_PATH = "api/v4/runItems/%1$s/keyframes";
 
     public static final String INVALID_SCHEDULES = "INVALID SCHEDULES";
     public static final String SCHEDULE_IDENTICAL = "Schedule with name %1$s is not unique, please specify unique name or use schedule Id";

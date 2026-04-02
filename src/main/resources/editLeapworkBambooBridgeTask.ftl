@@ -98,14 +98,14 @@ fieldArea_schIds.style.display='none';
                    }
                    else
                    {
-                       const address = "http://" + leapworkHostname + ":" + leapworkPort;
+                       const address = buildControllerApiUrl(leapworkHostname, leapworkPort, "api/v4/schedules");
                        const accessKey = document.getElementById("leapworkAccessKey").value;
 
                        if(document.getElementById('LeapworkContainer').innerHTML == "")
                        {
 
                            (jQuery).ajax({
-                               url: address + "/api/v4/schedules",
+                               url: address,
                                headers: {'AccessKey': accessKey},
                                type: 'GET',
                                dataType:"json",
@@ -247,4 +247,52 @@ fieldArea_schIds.style.display='none';
 
                    }
              }
+
+         function buildControllerApiUrl(hostname, rawPort, relativePath) {
+                   const url = getControllerBaseUrl(hostname, rawPort);
+                   const normalizedBasePath = (url.pathname || "/").replace(/\/+$/, "");
+                   const normalizedRelativePath = (relativePath || "").replace(/^\/+/, "");
+                   url.pathname = normalizedBasePath + "/" + normalizedRelativePath;
+                   return url.toString();
+         }
+
+         function getControllerBaseUrl(hostname, rawPort) {
+                   const trimmedInput = normalizeUrlQuerySeparators((hostname || "").trim());
+                   const candidate = isAbsoluteUrl(trimmedInput) ? trimmedInput : "http://" + trimmedInput;
+                   const url = new URL(candidate);
+
+                   if (!url.port) {
+                       url.port = rawPort || "9001";
+                   }
+
+                   if (!url.pathname) {
+                       url.pathname = "/";
+                   }
+
+                   return url;
+         }
+
+         function isAbsoluteUrl(input) {
+                   try {
+                       const url = new URL(input);
+                       return url.protocol === "http:" || url.protocol === "https:";
+                   } catch (e) {
+                       return false;
+                   }
+         }
+
+         function normalizeUrlQuerySeparators(input) {
+                   if (!input || !input.trim()) {
+                       return input;
+                   }
+
+                   const firstQuestionMarkIndex = input.indexOf("?");
+                   if (firstQuestionMarkIndex < 0) {
+                       return input;
+                   }
+
+                   const pathPart = input.substring(0, firstQuestionMarkIndex + 1);
+                   const queryPart = input.substring(firstQuestionMarkIndex + 1).replace(/\?/g, "&");
+                   return pathPart + queryPart;
+         }
 </script>

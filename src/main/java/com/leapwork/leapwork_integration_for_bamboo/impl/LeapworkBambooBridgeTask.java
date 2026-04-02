@@ -9,7 +9,6 @@ import com.atlassian.bamboo.task.*;
 import com.atlassian.plugin.spring.scanner.annotation.component.Scanned;
 import com.atlassian.plugin.spring.scanner.annotation.imports.ComponentImport;
 import com.ning.http.client.AsyncHttpClient;
-import com.sun.javafx.scene.layout.region.Margins;
 import org.springframework.beans.factory.annotation.Autowired;
 import java.io.File;
 import java.util.*;
