@@ -18,8 +18,8 @@
       "WorkflowStatusId": "1368161e-584c-4c64-999d-85dd0eed4370",
       "AgentConfigurationId": "",
       "Description": "",
-      "DateCreation": "9/8/2026 12:39:04 PM +00:00",
-      "DateModify": "9/8/2026 12:39:04 PM +00:00",
+      "DateCreation": "9/8/2026 12:53:47 PM +00:00",
+      "DateModify": "9/8/2026 12:53:47 PM +00:00",
       "Title": "Beta - Web",
       "Type": "Flow",
       "IsDeleted": "False",
@@ -16009,7 +16009,7 @@
       {
         "Uri": "https://www.amazon.com/events/labordaysale?ref_=nav_cs_gb&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%255C%2522departments%255C%2522%253A%255B%255C%25222619526011%255C%2522%255D%252C%255C%2522brands%255C%2522%253A%255B%255C%252246658%257CLG%255C%2522%255D%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522",
         "Fields": "",
-        "StrategyListSource": "93d1a6c4-ff91-447f-8a80-a5d112a5778b",
+        "StrategyListSource": "198ebb01-1c80-4bcf-8a1d-f7920eb4b70b",
         "HasImage": "False",
         "RawId": "fcf30a83-78c9-4004-b960-9f0afc1e6fab",
         "SelectedStrategyId": "de6ee3af-05dc-40f1-83f9-50fd7d6ec138",
@@ -16025,7 +16025,7 @@
       {
         "Uri": "https://www.amazon.com/",
         "Fields": "",
-        "StrategyListSource": "5bfcfda4-ce94-4965-8cb6-739f7926b7de",
+        "StrategyListSource": "7d213ed6-3bfe-4df3-9a47-31fbaf787816",
         "HasImage": "False",
         "RawId": "6c00acb1-8859-45b0-a0b6-6e7ede8978bd",
         "SelectedStrategyId": "81327397-66ca-47b9-937e-2dfee7b406c4",
@@ -16041,7 +16041,7 @@
       {
         "Uri": "https://www.amazon.com/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc",
         "Fields": "System.Collections.Generic.List`1[LeapTest.Entities.UIElements.Web.WebDynamicFieldEntity]",
-        "StrategyListSource": "376670e7-a2ce-4279-9078-60b58f4ead04",
+        "StrategyListSource": "69536882-670d-4b29-90db-1579ea5e9e3a",
         "HasImage": "False",
         "RawId": "a7da1270-955a-4384-b9cb-b458a72061b7",
         "SelectedStrategyId": "b123aa25-77d5-438a-a7da-c64bae62b3b5",
@@ -16057,7 +16057,7 @@
       {
         "Uri": "https://www.amazon.com/",
         "Fields": "System.Collections.Generic.List`1[LeapTest.Entities.UIElements.Web.WebDynamicFieldEntity]",
-        "StrategyListSource": "7f268662-3810-4983-ac9f-93ca5c79e6dd",
+        "StrategyListSource": "87206767-90b9-4409-9970-452f5f33912f",
         "HasImage": "False",
         "RawId": "b8ff7630-772c-40d2-bcec-cfe54d32ac67",
         "SelectedStrategyId": "467c06c4-9f64-4380-87ce-dfae83a43eba",
@@ -16073,7 +16073,7 @@
       {
         "Uri": "https://www.amazon.com/events/labordaysale?ref_=nav_cs_gb&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%255C%2522departments%255C%2522%253A%255B%255C%25222619526011%255C%2522%255D%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522",
         "Fields": "",
-        "StrategyListSource": "ddf8996a-822e-4488-bd56-689bce141e72",
+        "StrategyListSource": "af0549d6-c65b-4079-81f5-93778507715b",
         "HasImage": "False",
         "RawId": "f3842843-da66-4ad9-ba4c-c63133376566",
         "SelectedStrategyId": "c1ecb43a-f58c-4689-9e4d-babf9be8ca22",
@@ -16089,7 +16089,7 @@
       {
         "Uri": "https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice",
         "Fields": "System.Collections.Generic.List`1[LeapTest.Entities.UIElements.Web.WebDynamicFieldEntity]",
-        "StrategyListSource": "caee2fca-d652-4aa3-90c4-50daf2cd936c",
+        "StrategyListSource": "11156162-efff-42ea-be64-6a7aa1649e41",
         "HasImage": "False",
         "RawId": "1a9fac0c-a849-4fe5-ab0f-781185b1d38e",
         "SelectedStrategyId": "69cb1abc-5f40-4766-ac57-27e5bfb2f9ab",
@@ -16105,7 +16105,7 @@
       {
         "Uri": "https://www.amazon.com/ap/signin?openid.pape.max_auth_age=3600&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fhz%2Fcontact-us%2Fforesight%2Fhubgateway%3Fref%3DafterSignIn&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_contactus_desktop_us&openid.mode=checkid_setup&marketPlaceId=ATVPDKIKX0DER&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0",
         "Fields": "System.Collections.Generic.List`1[LeapTest.Entities.UIElements.Web.WebDynamicFieldEntity]",
-        "StrategyListSource": "304fea3a-1dfb-4ec7-9812-a773affda638",
+        "StrategyListSource": "7a6ebbe5-706e-4686-acf7-6deb07ae97e0",
         "HasImage": "False",
         "RawId": "4a424450-f4d9-4808-b8fa-d82a72e7dd58",
         "SelectedStrategyId": "b72f71f2-5a9b-4d0e-8dc5-ad4ba6fe8d87",
@@ -16121,7 +16121,7 @@
       {
         "Uri": "https://www.amazon.com/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc",
         "Fields": "",
-        "StrategyListSource": "35ab5857-ec65-4833-8a13-173c8cd223a2",
+        "StrategyListSource": "08ea0165-e951-4323-a8ac-ec545a0618bd",
         "HasImage": "False",
         "RawId": "cc00adb9-4ccd-4492-b6cc-a8ac4fd1eadc",
         "SelectedStrategyId": "824f8865-c69d-4991-9471-1a8893d720e7",
@@ -16137,7 +16137,7 @@
       {
         "Uri": "https://www.amazon.com/dp/B09QPYZCFK?ref=altParentAsins_treatment_text_from_Birthday_to_Any&th=1",
         "Fields": "",
-        "StrategyListSource": "cff6a687-2c9d-45ec-b904-66d496da3b01",
+        "StrategyListSource": "a9fd0ab5-fdbe-471c-97e0-1ad3b511e4aa",
         "HasImage": "False",
         "RawId": "9f2b0b39-ed23-4b7b-8864-7387f4fc75d0",
         "SelectedStrategyId": "1b781f2b-01e8-45f7-b65d-24e40d51cca6",
@@ -16153,7 +16153,7 @@
       {
         "Uri": "https://www.amazon.com/",
         "Fields": "",
-        "StrategyListSource": "2a819f61-d101-4df1-9de5-4b43f5c563e0",
+        "StrategyListSource": "f2ebbf65-e253-46d8-afb3-4d175f617da6",
         "HasImage": "False",
         "RawId": "3741e1a2-f2bb-4b0d-9749-deeec1a2b1da",
         "SelectedStrategyId": "4da3715b-7b76-4345-8b38-a87b69478efb",
@@ -16169,7 +16169,7 @@
       {
         "Uri": "https://www.amazon.com/Amazon-eGift-Card-Bright-Balloons-Animated/dp/B09LQTPHSG?pf_rd_p=f48567e1-5fd4-416a-a01c-fe4d73966da9&pf_rd_r=525W5V6CN5ZT6ATEQ0W6&ref_=US_GC_AGC_P1_25_STND_B09LQTPHSG&th=1",
         "Fields": "",
-        "StrategyListSource": "3097fb16-f477-447d-aa3c-07b157dd2362",
+        "StrategyListSource": "2257c5bd-ed86-483f-a2f7-c0b9073e5f9c",
         "HasImage": "False",
         "RawId": "7972a319-9c71-4402-ae40-07d8e938c6c8",
         "SelectedStrategyId": "0f95f8f5-dbea-4c16-8b50-ffd88ca56445",
@@ -16185,7 +16185,7 @@
       {
         "Uri": "https://www.amazon.com/events/labordaysale?ref_=nav_cs_gb&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%255C%2522departments%255C%2522%253A%255B%255C%25222619526011%255C%2522%255D%252C%255C%2522brands%255C%2522%253A%255B%255C%252246658%257CLG%255C%2522%255D%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522",
         "Fields": "",
-        "StrategyListSource": "2945097c-7b80-4a11-a5a4-b529349d9942",
+        "StrategyListSource": "49842fe0-b1db-4af3-b6c2-66de1a640945",
         "HasImage": "False",
         "RawId": "ee2fd9ab-6ac5-458e-b6c1-d6f19bdde5ab",
         "SelectedStrategyId": "c5f7d514-0921-4d7a-8e5c-467f963ae914",
@@ -16201,7 +16201,7 @@
       {
         "Uri": "https://www.amazon.com/events/labordaysale?ref_=nav_cs_gb&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%255C%2522departments%255C%2522%253A%255B%255C%25222619526011%255C%2522%255D%252C%255C%2522brands%255C%2522%253A%255B%255C%252246658%257CLG%255C%2522%255D%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522",
         "Fields": "",
-        "StrategyListSource": "15beb601-a11d-44f2-a97d-3485b7163b8e",
+        "StrategyListSource": "6d47ae71-324e-44b5-960a-450c09b2343c",
         "HasImage": "False",
         "RawId": "d555d7a1-fb9b-4691-8845-4dfc54f214af",
         "SelectedStrategyId": "3511ebbf-a89b-4776-af5f-9f930d6d8bcb",
@@ -16217,7 +16217,7 @@
       {
         "Uri": "https://www.amazon.com/Amazon-eGift-Card-Bright-Balloons-Animated/dp/B09LQTPHSG?pf_rd_p=f48567e1-5fd4-416a-a01c-fe4d73966da9&pf_rd_r=525W5V6CN5ZT6ATEQ0W6&ref_=US_GC_AGC_P1_25_STND_B09LQTPHSG&th=1",
         "Fields": "",
-        "StrategyListSource": "f1fa1333-3df2-4096-8e77-df4824f45346",
+        "StrategyListSource": "c57ed709-88a8-4456-a859-f44ca52d5c66",
         "HasImage": "False",
         "RawId": "d72c82b0-b70f-4978-a85b-ff5da400da02",
         "SelectedStrategyId": "2fe30dd5-0eab-42d0-98c2-07d720ca5315",
@@ -16233,7 +16233,7 @@
       {
         "Uri": "https://www.amazon.com/events/labordaysale?ref_=nav_cs_gb",
         "Fields": "",
-        "StrategyListSource": "2104272e-12b9-49fa-8525-f4ee202ded26",
+        "StrategyListSource": "454fb267-6759-47f6-9f80-3870f6206ee1",
         "HasImage": "False",
         "RawId": "e7beef67-61eb-405a-a0fa-0f0f737fa5bf",
         "SelectedStrategyId": "14a38119-a40c-479a-a27f-c69d6ce1a83a",
@@ -16249,7 +16249,7 @@
       {
         "Uri": "https://www.amazon.com/dp/B09QPYZCFK?ref=altParentAsins_treatment_text_from_Birthday_to_Any&th=1&gpo=200",
         "Fields": "",
-        "StrategyListSource": "aabe7e94-c450-408e-9511-273017e3ff69",
+        "StrategyListSource": "6ed38b21-1acc-4169-bcb2-0ceccc1062f3",
         "HasImage": "False",
         "RawId": "5ee76c4c-ca31-4ac5-8d5a-f937e1f4c7e9",
         "SelectedStrategyId": "c5e62d4a-57fa-41f4-893e-b6c3adda04fc",
