@@ -1,98 +1,51 @@
 ﻿{
   "SchemaVersion": 2,
-  "Flows": [
+  "Flows": [],
+  "SubFlows": [
     {
-      "EnvironmentId": "00000000-0000-0000-0000-000000000000",
-      "TimeoutSeconds": "600",
-      "DefaultTimeoutSec": "10",
-      "IsFailedUnlessPassed": "True",
-      "VideoRecording": "HighQuality",
-      "EnableVideoSubtitles": "False",
-      "AwaitRequests": "False",
-      "AwaitRequestsTimeout": "3",
-      "AwaitDomChange": "False",
-      "AwaitDomChangeTimeout": "3",
-      "LoggingLevel": "Full",
-      "FlowchartId": "14db703f-826d-4e5a-aa1d-a7db3306aa9a",
+      "FlowchartId": "396010fc-a472-441a-b791-4ad92bd8e9a7",
+      "FlowProperties": "System.Collections.Generic.List`1[LeapTest.Entities.FlowPropertyInfo]",
       "AssigneeUserId": "",
       "WorkflowStatusId": "1368161e-584c-4c64-999d-85dd0eed4370",
-      "AgentConfigurationId": "",
       "Description": "",
-      "DateCreation": "10/8/2026 12:44:37 PM +00:00",
-      "DateModify": "10/8/2026 12:44:37 PM +00:00",
-      "Title": "New Flow",
-      "Type": "Flow",
+      "DateCreation": "10/8/2026 10:51:22 AM +00:00",
+      "DateModify": "10/8/2026 10:51:22 AM +00:00",
+      "Title": "New Sub-flow",
+      "Type": "SubFlow",
       "IsDeleted": "False",
-      "Id": "72d64ad9-adc5-4c06-a9e7-b4d6d1d70117",
+      "Id": "bfb498f8-7b74-4e57-a28d-b4dde77b00b2",
       "Flowchart": {
-        "Type": "Flow",
+        "Type": "SubFlow",
         "ZoomFactor": "100",
-        "XPosition": "0",
-        "YPosition": "0",
-        "Width": "0",
-        "Hight": "0",
+        "XPosition": "-4500",
+        "YPosition": "-4500",
+        "Width": "10000",
+        "Hight": "10000",
         "IsDeleted": "False",
-        "Id": "14db703f-826d-4e5a-aa1d-a7db3306aa9a",
-        "BuildingBlocks": [
+        "Id": "396010fc-a472-441a-b791-4ad92bd8e9a7",
+        "BuildingBlocks": [],
+        "FlowProperties": [
           {
-            "Title": "Start",
-            "XPosition": "5000",
-            "YPosition": "5000",
-            "IsExpanded": "False",
-            "Width": "0",
+            "ParentBuildingBlockId": "bfb498f8-7b74-4e57-a28d-b4dde77b00b2",
+            "ParentFlowPropertyId": "",
             "TemplateId": "",
-            "FlowchartId": "14db703f-826d-4e5a-aa1d-a7db3306aa9a",
-            "Type": "Start",
-            "Note": "",
-            "IsNoteVisible": "False",
-            "Id": "6120983f-e60b-4be4-a22b-7a113177ddd7",
-            "FlowProperties": [
-              {
-                "ParentBuildingBlockId": "6120983f-e60b-4be4-a22b-7a113177ddd7",
-                "ParentFlowPropertyId": "",
-                "TemplateId": "",
-                "Type": "Dictionary",
-                "Key": "StartAction",
-                "Title": "",
-                "SortOrder": "1",
-                "ValueId": "59a36323-dce7-4e22-a3d9-b4d6d3360117",
-                "LType": "LText",
-                "IsExpanded": "False",
-                "IsBlockPropertyChecked": "",
-                "CustomSortOrder": "0",
-                "Id": "62c97706-713c-4e6d-b60d-353ba0a226d6",
-                "ChildProperties": [],
-                "Connections": [],
-                "Value": {
-                  "Value": "NoAction",
-                  "Id": "59a36323-dce7-4e22-a3d9-b4d6d3360117"
-                }
-              },
-              {
-                "ParentBuildingBlockId": "6120983f-e60b-4be4-a22b-7a113177ddd7",
-                "ParentFlowPropertyId": "",
-                "TemplateId": "",
-                "Type": "Header",
-                "Key": "Header",
-                "Title": "Start",
-                "SortOrder": "0",
-                "ValueId": "58f963a1-e3d4-4221-b33d-b4d6d3330117",
-                "LType": "LSignal",
-                "IsExpanded": "False",
-                "IsBlockPropertyChecked": "",
-                "CustomSortOrder": "0",
-                "Id": "678ed0a6-a461-45fb-9341-b2d849eb9f33",
-                "ChildProperties": [],
-                "Connections": []
-              }
-            ]
+            "Type": "ModuleHeader",
+            "Key": "Header",
+            "Title": "New Sub-flow",
+            "SortOrder": "0",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "039b33e5-fb10-481f-b234-b4dde77b00b2",
+            "ChildProperties": [],
+            "Connections": []
           }
-        ],
-        "FlowProperties": []
+        ]
       }
     }
   ],
-  "SubFlows": [],
   "UnassociatedExportData": {
     "ExportMetadata": [
       {
@@ -106,32 +59,32 @@
     ],
     "FlowTreeHierarchyItem0": [
       {
-        "MetadataId": "72d64ad9-adc5-4c06-a9e7-b4d6d1d70117",
-        "ParentId": "026de54a-6fb2-4693-b5ef-0fef2f94c74e",
-        "Title": "New Flow",
+        "MetadataId": "bfb498f8-7b74-4e57-a28d-b4dde77b00b2",
+        "ParentId": "b8dbf3c4-2122-4b73-8334-21c1cd1b0e1e",
+        "Title": "New Sub-flow",
         "Description": "",
-        "Type": "Flow",
+        "Type": "SubFlow",
         "IsReferenced": "False",
-        "DateCreation": "10/1/2026 4:58:47 PM +00:00",
-        "DateModify": "10/8/2026 10:39:13 AM +00:00",
-        "PreviousSiblingId": "",
+        "DateCreation": "10/8/2026 10:51:22 AM +00:00",
+        "DateModify": "10/8/2026 10:51:22 AM +00:00",
+        "PreviousSiblingId": "be20642c-43d2-4ee9-9d0c-1d61b43b0aa2",
         "LinkedWith": "None",
-        "Id": "70059b4a-d678-457d-a681-8b17baeb0e18"
+        "Id": "f3b9c258-f381-416b-9099-d14dd31138a1"
       }
     ],
     "FlowTreeHierarchyItemSortOrder2": [
       {
-        "PreviousSiblingId": "",
-        "Id": "70059b4a-d678-457d-a681-8b17baeb0e18"
+        "PreviousSiblingId": "be20642c-43d2-4ee9-9d0c-1d61b43b0aa2",
+        "Id": "f3b9c258-f381-416b-9099-d14dd31138a1"
       }
     ],
     "HierarchyItemMetadata1": [
       {
-        "Title": "New Flow",
+        "Title": "New Sub-flow",
         "Description": "",
-        "Type": "Flow",
+        "Type": "SubFlow",
         "LinkedWith": "None",
-        "Id": "72d64ad9-adc5-4c06-a9e7-b4d6d1d70117"
+        "Id": "bfb498f8-7b74-4e57-a28d-b4dde77b00b2"
       }
     ],
     "UsedTypes": [
